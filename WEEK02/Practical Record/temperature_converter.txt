@@ -1,0 +1,5 @@
+START
+    READ temperature in Celsius
+    CALCULATE Fahrenheit AS (Celsius × 9 / 5) + 32
+    DISPLAY temperature in Fahrenheit
+STOP

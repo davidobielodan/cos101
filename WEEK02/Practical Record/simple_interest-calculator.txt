@@ -1,0 +1,23 @@
+START
+    READ principal
+    READ annual percentage rate
+    READ time in years
+    CALCULATE interest AS principal × rate × time / 100
+    CALCULATE final amount AS principal + interest
+    DISPLAY interest
+    DISPLAY final amount
+STOP
+
+Input–process–output analysis
+
+Input  
+Principal, annual percentage
+rate, time in years
+
+Process
+Calculate interest, then add
+it to principal
+
+Output
+Interest and final
+amoun

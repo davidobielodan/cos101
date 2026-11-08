@@ -1,0 +1,22 @@
+START
+READ n
+IF n is less than 1
+DISPLAY an error
+ELSE
+SET total TO 0
+FOR number FROM 1 TO n
+ADD number TO total
+END FOR
+DISPLAY total
+END IF
+STOP
+
+Input–process–output analysis
+Input  
+Positive whole number n
+
+Process
+ Add each number from 1 to n 
+ 
+ Output
+ Sum of the series

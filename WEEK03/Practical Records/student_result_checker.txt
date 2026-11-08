@@ -1,0 +1,64 @@
+
+
+Input:	Student name, coursework score (0–30), examination score (0–70).
+Process: Validate both scores, calculate total, assign grade and determine progression decision.
+Output:	Student name, coursework, examination, total, grade and pass/resit decision.
+
+ Numbered Algorithm
+1. Start.
+2. Accept the student's name.
+3. Accept the coursework score.
+4. Accept the examination score.
+5. Check if coursework is between 0 and 30.
+6. Check if examination is between 0 and 70.
+7. If either score is invalid, display an error message.
+8. Otherwise, add coursework and examination scores to calculate the total.
+9. Assign a grade based on the grading scheme:
+   - 70–100: A
+   - 60–below 70: B
+   - 50–below 60: C
+   - 45–below 50: D
+   - 40–below 45: E
+   - 0–below 40: F
+10. If total is 50 or above, display Pass.
+11. Otherwise, display Resit required.
+12. Display the student result summary.
+13. Stop.
+
+BEGIN
+    INPUT student_name
+    INPUT coursework
+    INPUT examination
+
+    IF coursework < 0 OR coursework > 30 THEN
+        PRINT "Invalid coursework score"
+
+    ELSE IF examination < 0 OR examination > 70 THEN
+        PRINT "Invalid examination score"
+
+    ELSE
+        total = coursework + examination
+
+        IF total >= 70 THEN
+            grade = "A"
+        ELSE IF total >= 60 THEN
+            grade = "B"
+        ELSE IF total >= 50 THEN
+            grade = "C"
+        ELSE IF total >= 45 THEN
+            grade = "D"
+        ELSE IF total >= 40 THEN
+            grade = "E"
+        ELSE
+            grade = "F"
+        ENDIF
+
+        IF total >= 50 THEN
+            decision = "Pass"
+        ELSE
+            decision = "Resit required"
+        ENDIF
+
+        PRINT student result summary
+    ENDIF
+END

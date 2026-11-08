@@ -1,0 +1,7 @@
+START
+    READ number
+    FOR multiplier FROM 1 TO 12
+    CALCULATE result AS number × multiplier
+    DISPLAY number, multiplier, and result
+    END FOR
+STOP

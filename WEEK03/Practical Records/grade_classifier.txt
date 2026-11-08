@@ -1,0 +1,21 @@
+Input  
+Student name and
+score
+
+Processing
+Validate score and identify its
+grade band
+
+Output
+Student name, score, and grade, or an
+error message
+
+
+ Algorithm
+1. Start.
+2. Read the student’s name.
+3. Read the score.
+4. If the score is outside 0–100, display an error.
+5. Otherwise, identify the grade using the supplied bands.
+6. Display the student’s name, score, and grade.
+7. Stop.

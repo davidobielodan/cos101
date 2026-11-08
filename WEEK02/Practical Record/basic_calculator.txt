@@ -1,0 +1,9 @@
+START
+    READ first number
+    READ second number, which must be non-zero
+    CALCULATE sum
+    CALCULATE difference
+    CALCULATE product
+    CALCULATE quotient
+    DISPLAY the results
+STOP

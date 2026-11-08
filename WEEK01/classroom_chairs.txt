@@ -1,0 +1,26 @@
+PSEUDO CODE
+BEGIN 
+     SET rows = 6
+     SET columns = 6
+
+     COMPUTE totalChairs = rows * columns
+
+     DISPLAY "Number of rows: ", rows
+     DISPLAY "Chairs per row [columns]: ", columns
+     DISPLAY "Total chairs: ", totalChairs
+END
+
+ALGORITHM
+1. Initialize the number of rows to 6.
+2. Initialize the number of chairs per row to 8.
+3. Mutlipy the number of rows by the number of chairs per row.
+4. Store the result in a variable named total chairs.
+5. Display the number of rows, chair per row and the total chairs.
+
+1. Problem Statement
+Find the total number of chairs in a classroom containing 6 rows of chairs and 8 columns of chairs ( 8 chairs in each row )
+
+2.INPUT, PROCESS, AND OUTPUT
+  INPUT: Number of rows (6), chairs per row (8)
+  PROCESS: Multiply the number of rows by the chairs per row ( 6 * 8 )
+  OUTPUT: Total number of chairs (48) 

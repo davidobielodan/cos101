@@ -1,0 +1,23 @@
+
+1. Input - Process - Output
+Stage	Description
+Input	Length = 12 metres, Width = 7 metres
+Process	Area = Length × Width
+Output	Area = 84(m²)
+
+2. Numbered Algorithm
+1. Start.
+2. Set the length to 12 metres.
+3. Set the width to 7 metres.
+4. Multiply the length by the width.
+5. Store the result in the area variable.
+6. Display the area.
+7. Stop.
+
+3. PseudoCode
+BEGIN
+    LENGTH = 12
+    WIDTH = 7
+    AREA = LENGTH * WIDTH
+    PRINT AREA
+END

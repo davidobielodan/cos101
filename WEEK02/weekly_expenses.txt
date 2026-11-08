@@ -1,0 +1,21 @@
+BEGIN 
+     DECLARE dailyTransportCost, dailyFeedingCost, numberOfDaysOnCampus AS REAL
+
+     INPUT "What is your full name? ", name
+     INPUT "Enter your daily transport cost ", dailyTransportCost
+     INPUT "Enter your daily Feeding cost ", dailyFeedingCost
+     INPUT "How long have you stayed on campus in days? ", numberOfDaysOnCampus
+     INPUT "HEnter your other expenses for the week", extraExpenses
+
+     COMPUTE transportTotal = dailyTransportCost * numberOfDaysOnCampus
+     COMPUTE feedingTotal = dailyFeedingCost * numberOfDaysOnCampus
+     COMPUTE weeklyTotal = feedingTotal + transportTotal + extraExpenses
+
+     DISPLAY "WEEKLY EXPENSE SUMMARY",
+     DISPLAY "STUDENT: ", name
+     DISPLAY "TRANSPORT TOTAL: NGN", transportTotal
+     DISPLAY "FEEDING TOTAL: NGN", feedingTotal
+     DISPLAY "OTHER EXPENSES: NGN", extraExpenses
+     DISPLAY "WEEKLY TOTAL: NGN", weeklyTotal
+
+END

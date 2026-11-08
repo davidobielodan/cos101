@@ -1,0 +1,64 @@
+Input-Process-Output analysis
+
+Input 
+Menu choice
+Two numbers 
+Exit choice 
+
+Processing 
+Identify the selected operation
+Perform the selected calculation 
+Stop the loop 
+
+Output
+Menu or error message
+Result
+Goodbye message
+
+ Algorithm
+1. Start.
+2. Display the calculator menu.
+3. Read the user’s choice.
+4. If the choice is 5, display a goodbye message and exit the loop.
+5. If the choice is invalid, display an error and return to the menu.
+6. Ask for two numbers.
+7. Perform the selected calculation.
+8. If division is selected and the second number is zero, display an error.
+9. Return to the menu.
+10. Stop after the user exits.
+
+PseudoCode
+
+START
+    REPEAT
+        DISPLAY menu
+        READ choice
+
+        IF choice is 5
+            DISPLAY goodbye message
+            EXIT loop
+        END IF
+
+        IF choice is not 1, 2, 3, or 4
+            DISPLAY invalid choice message
+            GO TO next iteration
+        END IF
+
+        READ first number
+        READ second number
+        
+        IF choice is 1
+            DISPLAY sum
+        ELSE IF choice is 2
+            DISPLAY difference
+        ELSE IF choice is 3
+            DISPLAY product
+        ELSE IF choice is 4
+            IF second number is zero
+                DISPLAY division error
+            ELSE
+                DISPLAY quotient
+            END IF
+        END IF
+    UNTIL user exits
+STOP
