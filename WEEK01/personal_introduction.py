@@ -2,8 +2,8 @@
 
 print("PERSONAL INTRODUCTION")
 print("=====================")
-print("Name: Obielodan David")
-print("Matriculation Number: VUG/SEN/26/17014")
+print("Name: Olugbami Daniel")
+print("Matriculation Number: VUG/SEN/26/16114")
 print("Programme: Software Engineering")
 print("Level: 100")
 print()
