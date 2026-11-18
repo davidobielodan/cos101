@@ -1,0 +1,50 @@
+20.2 Input–process–output analysis
+Input Processing Output
+Number of students Check that the count is positive Error or request for student
+details
+Student names and
+scores
+Validate scores and store records List of entered students
+Stored scores Calculate total, average, minimum, and
+maximum
+Class summary
+Search name Compare with stored names Matching record(s) or “not
+found”
+20.3 Algorithm
+1. Start.
+2. Create an empty list for student records.
+3. Read the number of students.
+4. If the number is not positive, display an error.
+5. Otherwise, repeat for each student:
+○ Read the student’s name.
+○ Read and validate the score.
+○ Create a dictionary containing the name and score.
+○ Add the dictionary to the list.
+6. Display the stored records.
+7. Calculate the total, average, highest score, and lowest score.
+8. Ask for a name to search.
+9. Display each matching record, or a message if there is no match.
+10. Stop.
+20.4 Pseudocode
+START
+CREATE empty student list
+READ student count
+IF student count is less than or equal to zero
+DISPLAY error
+ELSE
+REPEAT for each student
+READ name
+READ score
+WHILE score is outside 0 to 100
+DISPLAY error
+READ score again
+END WHILE
+CREATE student record with name and score
+ADD record to student list
+END REPEAT
+DISPLAY all student records
+CALCULATE and DISPLAY class summary
+READ search name
+DISPLAY all matching records, or display "not found"
+END IF
+STOP
